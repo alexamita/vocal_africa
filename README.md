@@ -1,26 +1,68 @@
-# VOCAL Africa
+# VOCAL Africa — Website Redesign Showcase
 
-Hi! I built the **VOCAL Africa** platform to support the Vocal Africa Foundation's mission. My goal was to create a modern, high-performance web application that effectively communicates their story, showcases their publications, and provides a seamless donation experience for supporters.
+## Purpose
+A frontend design and UX showcase created to demonstrate a proposed website revamp for the Vocal Africa Foundation.(Dummy content only)
+The project focuses on content structure, accessibility, and usability, rather than production data or backend systems.
 
-I designed this project to be not just functional, but also visually engaging and accessible, ensuring that the foundation's message reaches as many people as possible.
 
-## �️ My Tech Stack Choices
+## Context
+The foundation required a modernized web presence that:
+- **Clearly communicates its mission and impact**
+- **Presents publications in a structured, readable way**
+- **Provides a simple and trustworthy donation experience**
 
-I carefully selected these technologies to ensure the project is scalable, maintainable, and fast:
+This project was my attempt to demonstrate how those needs can be addressed.
 
+
+## Data & Integrations
+1. All content and transactions use dummy data only
+2. No live payment gateways or external services
+3. No real user or organizational data involved
+
+This constraint is intentional and appropriate for a design showcase, pre-approval.
+
+
+## Scope
+Public-facing informational pages
+Donation flow UI (visual and interaction design only)
+Responsive and accessible layout
+Frontend-only implementation
+
+
+## Key Features
+Clear content hierarchy for storytelling and impact sections
+Reusable UI components for consistent layout and interactions
+Accessible dialogs and navigation patterns
+Responsive design across devices
+
+
+## UI Decisions
+Component reuse over page-specific logic to support iteration
+Radix UI primitives for accessibility and keyboard support
+Tailwind CSS for consistent styling with minimal CSS complexity
+Motion used selectively to guide attention without distraction
+Content separated from presentation to simplify redesign cycles
+
+
+## Technology
+1.Frontend
 - **[React](https://react.dev/)**: I used React for its component-based architecture, which allowed me to build reusable UI elements like the donation cards and story blocks.
 - **[TypeScript](https://www.typescriptlang.org/)**: To keep my code clean and bug-free, I used TypeScript. It helps me catch errors early and makes refactoring much closer to a breeze.
-- **[Vite](https://vitejs.dev/)**: I chose Vite over Create React App because it's incredibly fast. The instant server start and hot module replacement make my development workflow much smoother.
 - **[Tailwind CSS](https://tailwindcss.com/)**: For styling, I went with Tailwind. It allowed me to rapidly build a custom design system without leaving my JSX, and it ensures the bundle size stays small.
+- **[Vite](https://vitejs.dev/)**: I chose Vite over Create React App because it's incredibly fast. The instant server start and hot module replacement make my development workflow much smoother.
+
+2.UI & Interaction
 - **[Framer Motion](https://www.framer.com/motion/)**: I implemented Framer Motion to add life to the application. You'll see smooth page transitions and interactive elements that make the site feel more premium.
 - **[Radix UI](https://www.radix-ui.com/)**: I didn't want to reinvent the wheel for complex accessible components (like dialogs and tabs), so I used Radix UI primitives as a solid foundation.
 
-## 🏁 How to Run My Project
 
-If you'd like to explore the code or run it on your local machine, here is how you can get started:
+3.Tooling
+- **[Git](https://git-scm.com/)** / GitHub
 
+
+## How to Run My Project
+To explore the code or run it on your local machine, here is how you can get started:
 ### 1. Clone the Repo
-
 First, clone the repository to your computer:
 
 ```bash
@@ -29,7 +71,6 @@ cd vocal_africa
 ```
 
 ### 2. Install Dependencies
-
 I use `npm` to manage dependencies. Run this command to install everything listed in `package.json`:
 
 ```bash
@@ -37,7 +78,6 @@ npm install
 ```
 
 ### 3. Start the Dev Server
-
 To see the app in action, run the development server:
 
 ```bash
@@ -46,8 +86,8 @@ npm run dev
 
 Then, open your browser to the URL shown (usually `http://localhost:5173`).
 
-## 📂 How I Organized the Code
 
+## How I Organized the Code
 I structured the project to be intuitive. Here's a map of where everything lives:
 
 ```
@@ -69,20 +109,21 @@ vocal_africa/
 └── vite.config.ts            # Vite build configuration
 ```
 
-## 🌟 Features I'm Proud Of
+The structure supports fast iteration and feedback during a redesign process.
 
-- **Seamless Donation Flow**: I built a custom donation interface that supports multiple currencies and payment methods, making it as easy as possible for users to contribute.
-- **Dynamic Storytelling**: I created a "Featured Stories" component that uses rich media to highlight the impact of the foundation's work.
-- **Responsive & Accessible**: I spent time ensuring the site works perfectly on mobile devices and adheres to accessibility standards.
+## Limitations
+1. Dummy data only
+2. No backend or CMS
+3. No real payment processing
+4. No analytics or tracking
 
-## 🤝 Contributing
+These limitations were intentional and aligned with the project’s purpose.
 
-This is a living project, and I'm always open to improvements. If you notice a bug or have an idea for a feature:
+## Future Extensions
+- CMS-backed content management
+- Live payment gateway integration
+- Analytics and performance monitoring
+- Localization and multi-language support
 
-1.  Fork the repo.
-2.  Create your feature branch.
-3.  Submit a Pull Request!
+The project is currently a static frontend showcase, but it can be extended with backend integration, dynamic content, and more features as and when needed.
 
----
-
-Check out the code and let me know what you think!
