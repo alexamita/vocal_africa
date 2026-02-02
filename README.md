@@ -1,6 +1,6 @@
 # VOCAL Africa
 
-Welcome to the **VOCAL Africa** project! This is a modern, responsive web application built for the Vocal Africa Foundation. The platform serves to share the foundation's mission, showcase stories and publications, and facilitate donations to support their cause.
+Welcome to the **VOCAL Africa** project! This is a modern, responsive web application intended for the Vocal Africa Foundation. The platform serves to share the foundation's mission, showcase stories and publications, and facilitate donations to support their cause (dummy data used).
 
 This project is built using modern web technologies to ensure a fast, accessible, and visually engaging experience.
 
