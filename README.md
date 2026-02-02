@@ -5,7 +5,7 @@ A frontend design and UX showcase created to demonstrate a proposed website reva
 
 The project focuses on content structure, accessibility, and usability, rather than production data or backend systems.
 
-**[Production note]:** The intended production build would pair this UI with a CMS (e.g., WordPress) to support non-technical publishing and automated content feeds.
+- **Production note:** The intended production build would pair this UI with a CMS (e.g., WordPress) to support non-technical publishing and automated content feeds.
 
 
 
