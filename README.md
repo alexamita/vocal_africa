@@ -2,7 +2,11 @@
 
 ## Purpose
 A frontend design and UX showcase created to demonstrate a proposed website revamp for the Vocal Africa Foundation.(Dummy content only)
+
 The project focuses on content structure, accessibility, and usability, rather than production data or backend systems.
+
+**Production note:** The intended production build would pair this UI with a CMS (e.g., WordPress) to support non-technical publishing and automated content feeds.
+
 
 
 ## Context
@@ -15,9 +19,9 @@ This project was my attempt to demonstrate how those needs can be addressed.
 
 
 ## Data & Integrations
-1. All content and transactions use dummy data only
-2. No live payment gateways or external services
-3. No real user or organizational data involved
+- All content and transactions use dummy data only
+- No live payment gateways or external services
+- No real user or organizational data involved
 
 This constraint is intentional and appropriate for a design showcase, pre-approval.
 
@@ -112,10 +116,10 @@ vocal_africa/
 The structure supports fast iteration and feedback during a redesign process.
 
 ## Limitations
-1. Dummy data only
-2. No backend or CMS
-3. No real payment processing
-4. No analytics or tracking
+- Dummy data only
+- No backend or CMS
+- No real payment processing
+- No analytics or tracking
 
 These limitations were intentional and aligned with the project’s purpose.
 
